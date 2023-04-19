@@ -22,7 +22,7 @@ module.exports = {
     entry: ["@babel/polyfill", path.resolve(__dirname, 'src', 'index.js')],
     output: {
       path: path.resolve(__dirname, 'dist'),
-      // publicPath: 'https://olehhurzhii.github.io/homwork-10-from-GoIT-school/',
+      publicPath: 'https://olehhurzhii.github.io/homwork-10-from-GoIT-school/',
       filename: './bundle.js',
     },
     plugins: [
