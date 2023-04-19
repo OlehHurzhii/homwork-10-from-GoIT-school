@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://olehhurzhii.github.io/homwork-10-from-GoIT-school/",
   "scripts": {
-    "start": "webpack server",
-    "build-dev": "webpack",
+    "start": "webpack serve --open --mode development",
+    "build-dev": "webpack --mode development",
     "build-pro": "webpack --node-env=production",
     "clear": "rd /s /q dist",
     "test": "echo \"Error: no test specified\" && exit 1"
